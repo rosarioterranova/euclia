@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 17dd3519e01d05145a92fae6934340f4
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - morto: {instanceID: 0}
+  - mortoT: {fileID: 2800000, guid: 672c62ae251108e4d8ea4f73020c4360, type: 3}
+  - riprova: {instanceID: 0}
+  - riprovaT: {fileID: 2800000, guid: 0f0189d47b434b94e9bd20dbc37cf392, type: 3}
+  - pausa: {instanceID: 0}
+  - pausaT: {fileID: 2800000, guid: d51be77aa40732748beac7f0e1a13186, type: 3}
+  - riprendi: {instanceID: 0}
+  - riprendiT: {fileID: 2800000, guid: ae9954c672466694fa10411581574ce6, type: 3}
+  - completato: {instanceID: 0}
+  - completatoT: {fileID: 2800000, guid: 182b659b2c306e64e85e9bae8cba0e23, type: 3}
+  - prossimo: {instanceID: 0}
+  - prossimoT: {fileID: 2800000, guid: 91a3d8aa1addd7840b40f8f19652be04, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{2436C49B-0D2D-2D9D-0126-B1F3F06D2C13}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_7_0;UNITY_4_7;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Script\controller\DragoController.js" />
+     <Compile Include="Assets\Script\controller\alien.js" />
+     <Compile Include="Assets\Script\controller\alienCollider.js" />
+     <Compile Include="Assets\Script\controller\alienFly.js" />
+     <Compile Include="Assets\Script\controller\alienFlyCollider.js" />
+     <Compile Include="Assets\Script\controller\alienFlySCollider.js" />
+     <Compile Include="Assets\Script\controller\alienFlyX.js" />
+     <Compile Include="Assets\Script\controller\alienFlyY.js" />
+     <Compile Include="Assets\Script\controller\alienFlyYCollider.js" />
+     <Compile Include="Assets\Script\controller\anubi.js" />
+     <Compile Include="Assets\Script\controller\anubiCollision.js" />
+     <Compile Include="Assets\Script\controller\anubiY.js" />
+     <Compile Include="Assets\Script\controller\asteroid.js" />
+     <Compile Include="Assets\Script\controller\cavaliere.js" />
+     <Compile Include="Assets\Script\controller\cavaliereCollisionX.js" />
+     <Compile Include="Assets\Script\controller\cavalloRick.js" />
+     <Compile Include="Assets\Script\controller\caveliereCollision.js" />
+     <Compile Include="Assets\Script\controller\evilCube.js" />
+     <Compile Include="Assets\Script\controller\evilCubeCollision.js" />
+     <Compile Include="Assets\Script\controller\evilCubeJumper.js" />
+     <Compile Include="Assets\Script\controller\evilCubeJumperCollision.js" />
+     <Compile Include="Assets\Script\controller\evilCubeJumperS.js" />
+     <Compile Include="Assets\Script\controller\evilCubeJumperSCollision.js" />
+     <Compile Include="Assets\Script\controller\evilCubeS.js" />
+     <Compile Include="Assets\Script\controller\evilCubeSCollision.js" />
+     <Compile Include="Assets\Script\controller\lanciaCollision.js" />
+     <Compile Include="Assets\Script\controller\life.js" />
+     <Compile Include="Assets\Script\controller\life2.js" />
+     <Compile Include="Assets\Script\controller\life3.js" />
+     <Compile Include="Assets\Script\controller\life4.js" />
+     <Compile Include="Assets\Script\controller\lifeCar.js" />
+     <Compile Include="Assets\Script\controller\lifeCavallo.js" />
+     <Compile Include="Assets\Script\controller\lifeshuttle.js" />
+     <Compile Include="Assets\Script\controller\locust.js" />
+     <Compile Include="Assets\Script\controller\locustCollision.js" />
+     <Compile Include="Assets\Script\controller\locustY.js" />
+     <Compile Include="Assets\Script\controller\monsterController.js" />
+     <Compile Include="Assets\Script\controller\ostacoloCavallo.js" />
+     <Compile Include="Assets\Script\controller\ostacoloTrasporto.js" />
+     <Compile Include="Assets\Script\controller\pharaonController.js" />
+     <Compile Include="Assets\Script\controller\rick.js" />
+     <Compile Include="Assets\Script\controller\rickY.js" />
+     <Compile Include="Assets\Script\controller\rickYMiddle.js" />
+     <Compile Include="Assets\Script\controller\shuttle.js" />
+     <Compile Include="Assets\Script\controller\shuttleX.js" />
+     <Compile Include="Assets\Script\controller\trasporto.js" />
+     <Compile Include="Assets\Script\controller\wolf.js" />
+     <Compile Include="Assets\Script\controller\wolfCollider.js" />
+     <Compile Include="Assets\Script\controller\wolfY.js" />
+     <Compile Include="Assets\Script\lvl1\lvl1 Loading - Campagna.js" />
+     <Compile Include="Assets\Script\lvl1\lvl1 Loading - Casa Rick.js" />
+     <Compile Include="Assets\Script\lvl1\lvl1 Loading - City.js" />
+     <Compile Include="Assets\Script\lvl1\lvl1 Loading - FBI.js" />
+     <Compile Include="Assets\Script\lvl1\lvl1 Loading - Porte.js" />
+     <Compile Include="Assets\Script\lvl1\lvl1Campagna.js" />
+     <Compile Include="Assets\Script\lvl1\lvl1CasaRick.js" />
+     <Compile Include="Assets\Script\lvl1\lvl1City.js" />
+     <Compile Include="Assets\Script\lvl1\lvl1Comic.js" />
+     <Compile Include="Assets\Script\lvl1\lvl1ComicEnd.js" />
+     <Compile Include="Assets\Script\lvl1\lvl1FBI.js" />
+     <Compile Include="Assets\Script\lvl1\lvl1Porte.js" />
+     <Compile Include="Assets\Script\lvl2\lvl2 - Nilo.js" />
+     <Compile Include="Assets\Script\lvl2\lvl2 - Pharaon.js" />
+     <Compile Include="Assets\Script\lvl2\lvl2 - Piramide.js" />
+     <Compile Include="Assets\Script\lvl2\lvl2 - Sfinge.js" />
+     <Compile Include="Assets\Script\lvl2\lvl2 Loading - Nilo.js" />
+     <Compile Include="Assets\Script\lvl2\lvl2 Loading - Pharaon.js" />
+     <Compile Include="Assets\Script\lvl2\lvl2 Loading - Piramide.js" />
+     <Compile Include="Assets\Script\lvl2\lvl2 Loading - Sfinge.js" />
+     <Compile Include="Assets\Script\lvl2\lvl2 Loading - Tenda.js" />
+     <Compile Include="Assets\Script\lvl2\lvl2 Tenda.js" />
+     <Compile Include="Assets\Script\lvl2\lvl2ComicEnd.js" />
+     <Compile Include="Assets\Script\lvl3\lvl3 - Base.js" />
+     <Compile Include="Assets\Script\lvl3\lvl3 - City.js" />
+     <Compile Include="Assets\Script\lvl3\lvl3 - Marte.js" />
+     <Compile Include="Assets\Script\lvl3\lvl3 - Monster.js" />
+     <Compile Include="Assets\Script\lvl3\lvl3 - Shuttle.js" />
+     <Compile Include="Assets\Script\lvl3\lvl3 Loading - Base.js" />
+     <Compile Include="Assets\Script\lvl3\lvl3 Loading - City Futura.js" />
+     <Compile Include="Assets\Script\lvl3\lvl3 Loading - Fascia.js" />
+     <Compile Include="Assets\Script\lvl3\lvl3 Loading - Marte.js" />
+     <Compile Include="Assets\Script\lvl3\lvl3 Loading - Monster.js" />
+     <Compile Include="Assets\Script\lvl4\lvl4 - Castello.js" />
+     <Compile Include="Assets\Script\lvl4\lvl4 - Cavallo.js" />
+     <Compile Include="Assets\Script\lvl4\lvl4 - Drago.js" />
+     <Compile Include="Assets\Script\lvl4\lvl4 - Foresta.js" />
+     <Compile Include="Assets\Script\lvl4\lvl4 - Forte.js" />
+     <Compile Include="Assets\Script\lvl4\lvl4 Loading - Castello.js" />
+     <Compile Include="Assets\Script\lvl4\lvl4 Loading - Cavallo.js" />
+     <Compile Include="Assets\Script\lvl4\lvl4 Loading - Drago.js" />
+     <Compile Include="Assets\Script\lvl4\lvl4 Loading - Foresta.js" />
+     <Compile Include="Assets\Script\lvl4\lvl4 Loading - Forte.js" />
+     <Compile Include="Assets\Script\lvl4\lvl4ComicEnd.js" />
+     <Compile Include="Assets\Script\menu\cheats.js" />
+     <Compile Include="Assets\Script\menu\credits.js" />
+     <Compile Include="Assets\Script\menu\inputMode.js" />
+     <Compile Include="Assets\Script\menu\lockedItem.js" />
+     <Compile Include="Assets\Script\menu\menu.js" />
+     <Compile Include="Assets\Script\menu\menuSplash.js" />
+     <Compile Include="Assets\Script\menu\menuTrad.js" />
+     <Compile Include="Assets\Script\menu\selectLanguage.js" />
+     <Compile Include="Assets\Script\menu\shop.js" />
+     <Compile Include="Assets\Script\menu\trial.js" />
+     <Compile Include="Assets\Script\powerUp\gemma1lvl2.js" />
+     <Compile Include="Assets\Script\powerUp\gemma1lvl3.js" />
+     <Compile Include="Assets\Script\powerUp\gemma1lvl4.js" />
+     <Compile Include="Assets\Script\powerUp\gemma2lvl2.js" />
+     <Compile Include="Assets\Script\powerUp\gemma2lvl3.js" />
+     <Compile Include="Assets\Script\powerUp\gemma2lvl4.js" />
+     <Compile Include="Assets\Script\powerUp\gemma3lvl2.js" />
+     <Compile Include="Assets\Script\powerUp\gemma3lvl3.js" />
+     <Compile Include="Assets\Script\powerUp\gemma3lvl4.js" />
+     <Compile Include="Assets\Script\powerUp\gemma4lvl2.js" />
+     <Compile Include="Assets\Script\powerUp\gemma4lvl3.js" />
+     <Compile Include="Assets\Script\powerUp\gemma4lvl4.js" />
+     <Compile Include="Assets\Script\powerUp\gemma5lvl2.js" />
+     <Compile Include="Assets\Script\powerUp\gemma5lvl3.js" />
+     <Compile Include="Assets\Script\powerUp\gemma5lvl4.js" />
+     <Compile Include="Assets\Script\powerUp\gemma6lvl2.js" />
+     <Compile Include="Assets\Script\powerUp\gemma6lvl3.js" />
+     <Compile Include="Assets\Script\powerUp\gemma6lvl4.js" />
+     <Compile Include="Assets\Script\powerUp\powerUpCoin.js" />
+     <Compile Include="Assets\Script\powerUp\powerUpProiettili.js" />
+     <Compile Include="Assets\Script\powerUp\powerUpVita.js" />
+     <Compile Include="Assets\Script\vari\cassa.js" />
+     <Compile Include="Assets\Script\vari\nuvola.js" />
+     <Compile Include="Assets\Script\vari\tradLvl.js" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.7.0/Standalone/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
