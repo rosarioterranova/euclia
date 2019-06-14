@@ -7,8 +7,8 @@ Welcome to Euclia, a world where life goes normally until a thief steals from th
 - **Game Engine**: Unity 4
 - **Programming language**: C#
 
-##Screenshots
+## Screenshots
 https://github.com/rosarioterranova/euclia/tree/master/Screenshots
 
-##Download build for Windows desktop
+## Download build for Windows desktop
 https://github.com/rosarioterranova/euclia/raw/master/Build/Euclia%20v1.0.4.rar
